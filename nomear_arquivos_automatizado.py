@@ -1,7 +1,7 @@
 import os
 
 # Definir o prefixo e a extensão
-PREFIXO = "multa"
+PREFIXO = "arquivo"
 EXTENSAO = ".jpg"
 
 def renomear_imagens(caminho_pasta):
@@ -25,6 +25,6 @@ def renomear_imagens(caminho_pasta):
                 print(f"Erro ao renomear o arquivo {caminho_antigo}: {e}")
 
 if __name__ == "__main__":
-    caminho_pasta = r"C:\Users\agdas\OneDrive\Área de Trabalho\Multas\formularios"  # Altere para o caminho correto; "r" faz ignorar as barras da string
+    caminho_pasta = r"C:\Users\usuario\OneDrive\Área de Trabalho\Pasta"  # Altere para o caminho correto; "r" faz ignorar as barras da string
     renomear_imagens(caminho_pasta)
 
